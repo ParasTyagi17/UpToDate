@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/aaj_tak_logo"
+            android:menuCategory="secondary"
+            android:title="@string/india_today" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/ndtv"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:menuCategory="secondary"
+            android:title="@string/zee_news" />
+        <item
+            android:id="@+id/Aaj_tak"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/aaj_tak"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/the_hindu"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/the_hindu"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/E_times"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/the_economic_times"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/Toi"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/times_of_india"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/H_times"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/hindustan_times"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/mint"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/mint"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/Indian_exp"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/indian_express"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/one_ind"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/one_india"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/dna"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/dna"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/news18"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/news18"
+            android:menuCategory="secondary"/>
+    </group>
+</menu>

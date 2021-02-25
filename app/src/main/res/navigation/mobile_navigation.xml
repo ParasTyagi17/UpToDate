@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.uptodate.ui.slideshow.SlideshowFragment"
+        android:label="@string/zee_news"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/Aaj_tak"
+        android:name="com.example.uptodate.fragment.AajTak"
+        android:label="@string/aaj_tak"
+        tools:layout="@layout/fragment_aaj_tak" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.uptodate.ui.home.HomeFragment"
+        android:label="@string/india_today"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.uptodate.ui.gallery.GalleryFragment"
+        android:label="@string/ndtv"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <fragment
+        android:id="@+id/the_hindu"
+        android:name="com.example.uptodate.fragment.TheHindu"
+        android:label="@string/the_hindu"
+        tools:layout="@layout/fragment_the_hindu" />
+    <fragment
+        android:id="@+id/E_times"
+        android:name="com.example.uptodate.fragment.EconomicTimes"
+        android:label="@string/the_economic_times"
+        tools:layout="@layout/fragment_economic_times" />
+    <fragment
+        android:id="@+id/Toi"
+        android:name="com.example.uptodate.fragment.Toi"
+        android:label="@string/times_of_india"
+        tools:layout="@layout/fragment_toi" />
+    <fragment
+        android:id="@+id/H_times"
+        android:name="com.example.uptodate.fragment.Ht"
+        android:label="@string/hindustan_times"
+        tools:layout="@layout/fragment_ht" />
+
+    <fragment
+        android:id="@+id/mint"
+        android:name="com.example.uptodate.fragment.mint"
+        android:label="@string/mint"
+        tools:layout="@layout/fragment_mint" />
+    <fragment
+        android:id="@+id/Indian_exp"
+        android:name="com.example.uptodate.fragment.IndianExpress"
+        android:label="@string/indian_express"
+        tools:layout="@layout/fragment_indian_express" />
+    <fragment
+        android:id="@+id/one_ind"
+        android:name="com.example.uptodate.fragment.OneIndia"
+        android:label="@string/one_india"
+        tools:layout="@layout/fragment_one_india" />
+    <fragment
+        android:id="@+id/dna"
+        android:name="com.example.uptodate.fragment.Dna"
+        android:label="@string/dna"
+        tools:layout="@layout/fragment_dna" />
+
+    <fragment
+        android:id="@+id/news18"
+        android:name="com.example.uptodate.fragment.News18"
+        android:label="@string/news18"
+        tools:layout="@layout/fragment_news18" />
+
+
+
+</navigation>
